@@ -59,7 +59,7 @@ MN1 = mt5.TIMEFRAME_MN1
 # =============================================================================
 
 # Initialize MT5 connection
-fetcher = DataFetcherMT5(login=5304234, password="MM8uRZO^1L", server="ICMarketsSC-MT5")
+fetcher = DataFetcherMT5(login=None, password=None, server=None)
 
 date_from = datetime(2025, 1, 15)
 date_to = datetime(2025, 5, 27)
@@ -560,4 +560,5 @@ if __name__ == "__main__":
     
     print("\n" + "=" * 60)
     print("MULTI-SYMBOL TRANSFORMER TRAINING COMPLETED")
+
     print("=" * 60)
