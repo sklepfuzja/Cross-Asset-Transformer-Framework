@@ -215,7 +215,7 @@ It can be extended with:
 
 ```
 .
-├── FINAL_target_14.py          # Main multi-symbol Transformer training script
+├── Cross Asset Transformer Framework.py          # Main multi-symbol Transformer training script
 ├── Data_download.py            # Data fetching & feature utilities
 ├── multi_symbol_transformer.h5 # Saved model (example output)
 └── README.md
@@ -226,7 +226,7 @@ It can be extended with:
 # 🚀 How to Run
 
 ```
-python FINAL_target_14.py
+python Cross Asset Transformer Framework.py
 ```
 
 Requirements:
